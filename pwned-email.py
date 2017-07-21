@@ -50,10 +50,19 @@ def haveibeenpwned(email):
 		cprint ("Congrats: %s not found in dumps!" % (email), end='\n')
 		return False
 
-try:
+def usage():
+	print "Usage: sys.argv[0] jdoe@email.com"
 
-	#if len(sys.argv) < 2:
-	#	usage()
+try:
+	if __name__ == '__main__':
+		try:
+			arg_command = sys.argv[1]
+		except IndexError:
+			arg_command = ""
+	if arg_command=="":
+		usage()
+		exit()
+
 	email = sys.argv[1]
 
 	found = 0
