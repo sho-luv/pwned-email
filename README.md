@@ -1,3 +1,4 @@
+# DEPRECATED
 
 ```diff
 - Note: No longer works as haveIbeenpwned.com has switched to a paid for service. -
