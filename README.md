@@ -1,3 +1,8 @@
+
+```diff
+- Note: No longer works as haveIbeenpwned.com has switched to a paid for service. -
+```
+
 # Pwned-email
 
 This is a command line tool that checks to see if the passed email has been part of a known compromise dump of data. It uses API calls from the websites:
